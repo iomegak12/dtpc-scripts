@@ -1,5 +1,5 @@
 #!/bin/bash
-## Commands for Ubuntu Server 20.04 LTS (HVM), SSD Volume Type - ami-06d51e91cea0dac8d
+
 ## These script will install the following components:
 # - OneAgent
 # - Docker
@@ -7,9 +7,6 @@
 # - Chromium for the Load generation of the EasyTravel Angular Shop
 # - EasyTravel, Legacy 8080,8079 / Angular 9080 and 80 / WebLauncher 8094 / EasyTravel REST 8091 1697
 
-## Set DT_TENANT_URL and API TOKEN
-# ---- Define Dynatrace Environment ----
-# Sample: https://{your-domain}/e/{your-environment-id} for managed or https://{your-environment-id}.live.dynatrace.com for SaaS
 DT_TENANT_URL=
 DT_PAAS_TOKEN=
 
@@ -18,6 +15,7 @@ DT_API_TOKEN=
 
 # For 3rd party server (images, cdn...). by default it takes the public IP
 DOMAIN=
+
 # ==================================================
 #      ----- Variables Definitions -----           #
 # ==================================================
