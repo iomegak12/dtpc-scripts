@@ -6,4 +6,3 @@ chmod +x ~/monaco
 
 sudo mv ~/monaco /usr/local/bin/
 
-monaco --help
